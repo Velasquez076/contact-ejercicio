@@ -1,5 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import TaskListComponent from "./components/container/TaskListComponent";
+import { ContactListComponent } from "./components/container/ContactListComponent";
 
 function App() {
   return (
@@ -17,6 +19,9 @@ function App() {
         >
           Learn React
         </a>
+        <TaskListComponent />
+        <hr />
+        <ContactListComponent />
       </header>
     </div>
   );
