@@ -2,6 +2,9 @@ import logo from "./logo.svg";
 import "./App.css";
 import TaskListComponent from "./components/container/TaskListComponent";
 import { ContactListComponent } from "./components/container/ContactListComponent";
+import HookEjemplo1UseState from "./hooks/HookEjemplo1UseState";
+import HookEjemplo3UseStateUseContext from "./hooks/HookEjemplo3UseState-UseContext";
+import HookEjemplo2UseEffectUseRefUseState from "./hooks/HookEjemplo2UseEffect-UseRef-UseContex";
 
 function App() {
   return (
@@ -19,6 +22,12 @@ function App() {
         >
           Learn React
         </a>
+        <HookEjemplo3UseStateUseContext/>
+        <hr />
+        <HookEjemplo2UseEffectUseRefUseState />
+        <hr />
+        <HookEjemplo1UseState />
+        <hr />
         <TaskListComponent />
         <hr />
         <ContactListComponent />
